@@ -956,6 +956,17 @@ aurora_DescribeOrderableDBInstanceOptions:
             - description:
               snippet_tags:
                 - rds.java2.scenario.cluster.describe.engines.main
+    PowerShell:
+      versions:
+        - sdk_version: 4
+          github: powershell/example_code/aurora
+          excerpts:
+            - description: This example lists the DB engine versions that support a specific DB instance class in an &AWS-Region;.
+              snippet_tags:
+                - powershell.aurora.list_engine_versions
+            - description: This example lists the DB instance classes that are supported for a specific DB engine version in an &AWS-Region;.
+              snippet_tags:
+                - powershell.aurora.list_instance_classes
     Python:
       versions:
         - sdk_version: 3
